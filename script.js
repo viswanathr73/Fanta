@@ -23,7 +23,7 @@ tl.to("#orange",{
 tl.to("#leaf",{
     top:"110%",
     rotate: "130deg",
-    left: "80%"
+    left: "70%"
 }, 'orange')
 tl.to("#leaf2",{
     top:"110%",
@@ -49,4 +49,27 @@ tl2.from("#Cocacola",{
     rotate: "-90deg",
     top: "110%",
     left: "-100%",
+}, 'ca')
+
+tl2.from(".lemon",{
+    rotate: "90deg",
+    left: "100%",
+    top: "110%"
+}, 'ca')
+
+tl2.from("#Pepsi",{
+    rotate: "90deg",
+    top: "110%",
+    left: "100%",
+}, 'ca')
+
+tl2.to("#orange-cut",{
+    width:"18%",
+    left: "42%",
+    top: "204%"
+}, 'ca')
+tl2.to("#fanta",{
+    width:"35%",
+    top: "210%",
+    left: "33%",
 }, 'ca')
